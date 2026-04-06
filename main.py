@@ -1,7 +1,6 @@
 import cv2 
 import numpy as np
-from scipy import ndimage
-from skimage import exposure, filters
+from skimage import exposure
 import matplotlib.pyplot as plt
 
 img1 = cv2.imread('images/cameraman.tif', cv2.IMREAD_GRAYSCALE)
